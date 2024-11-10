@@ -1,18 +1,22 @@
-import type { Config } from "tailwindcss";
-
-export default {
+module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx}', // All files in the pages directory
+    './components/**/*.{js,ts,jsx,tsx}', // All files in the components directory
+    './src/**/*.{js,ts,jsx,tsx}', // Include all relevant directories
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#1e90ff', // Customize primary color
+        secondary: '#ff69b4', // Customize secondary color
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // Add custom font family
       },
     },
   },
-  plugins: [],
-} satisfies Config;
+  plugins: [
+    require('@tailwindcss/forms'), // Example plugin for better form styling
+    require('@tailwindcss/typography'), // Example plugin for improved typography
+  ],
+};
