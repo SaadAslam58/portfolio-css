@@ -20,7 +20,7 @@ const ContactForm = () => {
      <a href="https://wa.me/03412322685" rel="noopener noreferrer" target='_blank'>  Send Message</a>
     </button>
     <button className='button2'>
-      <a href="https://milestone-1-delta-cyan.vercel.app/" rel="noopener noreferrer" target='_blank'>View Resume</a>
+      <a href="https://milestone-1-delta-cyan.vercel.app/" rel="noopener noreferrer" target='_blank' className='anch'>View Resume</a>
     </button>
     </div>
   </form>
