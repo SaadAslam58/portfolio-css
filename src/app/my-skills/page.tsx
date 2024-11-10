@@ -17,7 +17,7 @@ const page = () => {
             </span>
             Technologies</h1>
             <p>
-            "Create with passion, code with purpose."</p>
+            Create with passion, code with purpose.</p>
       </div>
       <Swiper
      slidesPerView = {5}
