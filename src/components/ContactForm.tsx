@@ -12,7 +12,7 @@ const ContactForm = () => {
       <h2>Gmail Me<a href="mailto:heliomedia555@gmail.com" target='_blank' rel="noopener noreferrer" className="social-link"><FaEnvelope /></a></h2>
     </div>
     <div className='center'>
-      <h2>Socials<a href="https://www.linkedin.com/in/saad-aslam-2167a32bb/" target='_blank' rel="noopener noreferrer"className="social-link"><FaLinkedin/></a><a href="https://www.linkedin.com/in/saad-aslam-2167a32bb/" target='_blank' rel="noopener noreferrer" className="social-link"><FaTwitter/></a></h2>
+      <h2>Socials<a href="https://www.linkedin.com/in/saad-aslam-2167a32bb/" target='_blank' rel="noopener noreferrer"className="social-link"><FaLinkedin/></a><a href="https://x.com/SaadAsl52012287?t=nZc34Zv3UzFWjZCM_UHPfg&s=08" target='_blank' rel="noopener noreferrer" className="social-link"><FaTwitter/></a></h2>
     </div>
     </div>
     <div className='btns'>
