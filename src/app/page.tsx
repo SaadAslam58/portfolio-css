@@ -8,10 +8,10 @@ const page = () => {
         className="container">
         <div className="content">
           <h1>
-            Make Anything Possible With
+          Web Development <br />
             <span>
              {" "} 
-             Web Development
+             With A Smile
             </span>
           </h1>
           <p>
